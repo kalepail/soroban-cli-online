@@ -4,8 +4,8 @@ tasks:
   - name: RPCiege
     command: |
       soroban config identity generate player --global
-      soroban config identity fund player --global --network futurenet
-      soroban config network add rpciege --global --rpc-url "https://futurenet.rpciege.com" --network-passphrase "Test SDF Future Network ; October 2022"
+      soroban config identity fund player --global --network testnet
+      soroban config network add rpciege --global --rpc-url "https://testnet.rpciege.com" --network-passphrase "Test SDF Network ; September 2015"
       clear
       exit
 vscode:

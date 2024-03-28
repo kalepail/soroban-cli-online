@@ -13,6 +13,6 @@ RUN rustup default stable
 
 RUN sudo apt-get update && sudo apt-get install -y binaryen
 RUN rustup target add wasm32-unknown-unknown
-RUN cargo install --locked --version 20.0.0-rc4 soroban-cli
+RUN cargo install --locked --version 20.3.1 soroban-cli
 
 RUN echo "source <(soroban completion --shell bash)" >> ~/.bashrc
